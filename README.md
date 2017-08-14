@@ -14,10 +14,10 @@ The implementation of prototype consists of two projects:
 # securecsar (back-end application)
 This project contains the following REST endpoints.
 
-1. http://<hostname>:<port>/securecsar/encrypt
-1. http://<hostname>:<port>/securecsar/sign
-1. http://<hostname>:<port>/securecsar/verify
-1. http://<hostname>:<port>/securecsar/decrypt
+1. http://hostname:port/securecsar/encrypt
+1. http://hostname:port/securecsar/sign
+1. http://hostname:port/securecsar/verify
+1. http://hostname:port/securecsar/decrypt
 
 You can easily setup the securecsar project using the following steps to deploy securecsar services in a web server (only tested with tomcat 9).
 
